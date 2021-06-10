@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Elenco libri</h1>
+    <h1>Elenco film</h1>
 
     <ul>
         @foreach ($movies as $movie)
