@@ -7,6 +7,17 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>homepage</h1>
+    <h1>Elenco libri</h1>
+
+    <ul>
+        @foreach ($movies as $movie)
+            <li>
+                <div><strong>Titolo:</strong>{{ $movie['title']}}</div>
+                <div><strong>Titolo originale:</strong>{{ $movie['original_title']}}</div>
+                <div><strong>Data di uscita:</strong>{{ $movie['date']}}</div>
+                <div><strong>Voto:</strong>{{ $movie['vote']}}</div>
+            </li>
+        @endforeach
+    </ul>
 </body>
 </html>
