@@ -1,0 +1,17 @@
+.movies-container {
+    width: 80%;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+
+    .single-movie {
+        width: 20%;
+        padding: 10px;
+
+        img {
+            width: 100%;
+        }
+    }
+}
